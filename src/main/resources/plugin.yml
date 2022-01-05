@@ -1,0 +1,8 @@
+name: OurOwnPlugin
+version: '${version}'
+main: com.github.tristanh11.ourownplugin.OurOwnPlugin
+api-version: 1.18
+prefix: [ OurOwnPlugin ]
+authors: [ Authors ]
+description: Description
+website: Website
