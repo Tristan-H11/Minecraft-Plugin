@@ -14,4 +14,7 @@ public class Ping implements CommandExecutor {
         }
         return false;
     }
+    /*
+    Kommentar für Lucas.
+     */
 }
