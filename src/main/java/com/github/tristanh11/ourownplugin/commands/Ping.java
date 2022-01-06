@@ -9,7 +9,7 @@ public class Ping implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
-            sender.sendMessage("Pong!");
+            sender.sendMessage("Hallo User!");
             return true;
         }
         return false;

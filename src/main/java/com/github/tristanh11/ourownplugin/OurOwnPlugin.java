@@ -13,7 +13,8 @@ public final class OurOwnPlugin extends JavaPlugin {
         this.getLogger().info("Plugin gestartet");
         MessageUtils.sendConsole("Plugin gestartet");
 
-        CommandUtils.registerCommand("ping", new Ping(), this);
+        CommandUtils.registerCommand("ping", new Ping(), this);     //Diese Zeile kopieren
+
     }
 
     @Override
