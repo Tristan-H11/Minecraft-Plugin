@@ -6,3 +6,7 @@ prefix: OurOwnPlugin
 authors: [ Authors ]
 description: Description
 website: Website
+commands:
+  ping:
+    description: Pong!
+    usage: /ping
