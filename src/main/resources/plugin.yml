@@ -10,3 +10,6 @@ commands:
   ping:
     description: Pong!
     usage: /ping
+  heal:
+    description: Heilt den Nutzer auf 10 Herzen.
+    usage: /heal
