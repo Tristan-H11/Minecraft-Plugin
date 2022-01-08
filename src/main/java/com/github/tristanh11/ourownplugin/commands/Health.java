@@ -10,7 +10,7 @@ public class Health implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             ((Player) sender).setHealth(10.0);
-            sender.sendMessage("Your health is on 10");
+            sender.sendMessage("Your health is on 10 now");
             return true;
         }
         return false;
