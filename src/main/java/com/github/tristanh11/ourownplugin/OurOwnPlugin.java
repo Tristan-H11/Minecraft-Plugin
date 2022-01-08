@@ -7,9 +7,15 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class OurOwnPlugin extends JavaPlugin {
 
+    /*
+    Checkliste Command erstellen:
+    1. Klasse in "commands" anlegen.
+    2. CommandUtils.registerCommand
+    3. plugin.yml um den command mit description und usage ergänzen.
+     */
+
     @Override
     public void onEnable() {
-        // Plugin startup logic
         this.getLogger().info("Plugin gestartet");
         MessageUtils.sendConsole("Plugin gestartet");
 
@@ -19,7 +25,6 @@ public final class OurOwnPlugin extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
         this.getLogger().info("Plugin gestoppt");
         MessageUtils.sendConsole("Plugin gestoppt");
     }
