@@ -1,6 +1,6 @@
 package com.github.tristanh11.ourownplugin;
 
-import com.github.tristanh11.ourownplugin.commands.Heal;
+import com.github.tristanh11.ourownplugin.commands.Health;
 import com.github.tristanh11.ourownplugin.commands.Ping;
 import com.github.tristanh11.ourownplugin.util.CommandUtils;
 import com.github.tristanh11.ourownplugin.util.MessageUtils;
@@ -15,7 +15,7 @@ public final class OurOwnPlugin extends JavaPlugin {
         MessageUtils.sendConsole("Plugin gestartet");
 
         CommandUtils.registerCommand("ping", new Ping(), this);     //Diese Zeile kopieren
-        CommandUtils.registerCommand("heal", new Heal(), this);
+        CommandUtils.registerCommand("heal", new Health(), this);
     }
 
     @Override
