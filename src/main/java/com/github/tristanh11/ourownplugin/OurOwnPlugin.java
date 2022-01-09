@@ -12,7 +12,7 @@ public final class OurOwnPlugin extends JavaPlugin {
     Checkliste Command erstellen:
     1. Klasse in "commands" anlegen.
     2. CommandUtils.registerCommand
-    3. plugin.yml um den command mit description und usage ergänzen.
+    3. plugin.yml um den command mit description und usage zu ergänzen.
      */
 
     @Override
