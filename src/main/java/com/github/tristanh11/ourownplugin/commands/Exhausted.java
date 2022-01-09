@@ -9,7 +9,7 @@ public class Exhausted implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
-            ((Player) sender).setFoodLevel(10);
+            ((Player) sender).setFoodLevel(20);
             return true;
         }
         return false;
