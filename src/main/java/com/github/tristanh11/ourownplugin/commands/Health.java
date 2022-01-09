@@ -9,8 +9,8 @@ public class Health implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
-            ((Player) sender).setHealth(16.0);
-            sender.sendMessage("Your health is on 16 now");
+            ((Player) sender).setHealth(22.0);
+            sender.sendMessage("You are healed");
             return true;
         }
         return false;
