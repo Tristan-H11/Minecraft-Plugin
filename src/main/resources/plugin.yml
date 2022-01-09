@@ -11,5 +11,8 @@ commands:
     description: Pong!
     usage: /ping
   heal:
-    description: Heilt den Nutzer auf 10 Herzen.
+    description: Heilt den Nutzer auf 16 Herzen.
     usage: /heal
+  eat:
+    description: Füllt das Essen auf 10 auf.
+    usage: /eat
