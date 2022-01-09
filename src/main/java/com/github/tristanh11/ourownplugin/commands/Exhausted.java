@@ -5,12 +5,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class Health implements CommandExecutor {
+public class Exhausted implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
-            ((Player) sender).setHealth(16.0);
-            sender.sendMessage("Your health is on 16 now");
+            ((Player) sender).setExhaustion(10);
             return true;
         }
         return false;
