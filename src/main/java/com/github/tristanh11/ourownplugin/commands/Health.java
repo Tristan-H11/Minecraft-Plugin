@@ -10,7 +10,6 @@ public class Health implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
-
             Player player = (Player) sender;
             double maxHealth = player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue();
             player.setHealth(maxHealth);
