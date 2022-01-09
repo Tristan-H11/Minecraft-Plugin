@@ -1,5 +1,7 @@
 package com.github.tristanh11.ourownplugin;
 
+import com.github.tristanh11.ourownplugin.commands.Exhausted;
+import com.github.tristanh11.ourownplugin.commands.Health;
 import com.github.tristanh11.ourownplugin.commands.Ping;
 import com.github.tristanh11.ourownplugin.util.CommandUtils;
 import com.github.tristanh11.ourownplugin.util.MessageUtils;
@@ -11,7 +13,7 @@ public final class OurOwnPlugin extends JavaPlugin {
     Checkliste Command erstellen:
     1. Klasse in "commands" anlegen.
     2. CommandUtils.registerCommand
-    3. plugin.yml um den command mit description und usage ergänzen.
+    3. plugin.yml um den command mit description und usage zu ergänzen.
      */
 
     @Override
@@ -20,7 +22,8 @@ public final class OurOwnPlugin extends JavaPlugin {
         MessageUtils.sendConsole("Plugin gestartet");
 
         CommandUtils.registerCommand("ping", new Ping(), this);     //Diese Zeile kopieren
-
+        CommandUtils.registerCommand("heal", new Health(), this);
+        CommandUtils.registerCommand("eat", new Exhausted(), this);
     }
 
     @Override
