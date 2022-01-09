@@ -16,3 +16,4 @@ commands:
   eat:
     description: Füllt das Essen auf 20 auf.
     usage: /eat
+    
